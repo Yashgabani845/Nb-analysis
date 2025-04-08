@@ -6,9 +6,7 @@ function App() {
   const [extractedText, setExtractedText] = useState("");
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
       <FileUpload onExtract={setExtractedText} />
-    </div>
   );
 }
 
